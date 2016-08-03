@@ -14,9 +14,12 @@ var question_scenes;
             if (core.wrong_ones) {
                 this.result_string = "This is your score: " + core.score + "\n";
                 for (var wrong in core.wrong_ones) {
-                    this.result_string += "Wrong ans: " + core.wrong_ones[wrong] + "\n";
+                    var str = core.wrong_ones[wrong];
+                    this.result_string += "Wrong answer: " + str.answer;
+                    this.result_string += " on question number " + str.question_num + "\n";
+                    this.result_string += str.question + "\n\n";
                 }
-                this.results = new objects.Label(this.result_string, "50px", "Pattaya", "BLUE", 730, 290, true);
+                this.results = new objects.Label(this.result_string, "20px", "Pattaya", "BLUE", 1330, 290, true);
             }
             this.alpha = 0;
             this.addChild(this.reset_button);
@@ -36,6 +39,12 @@ var question_scenes;
             });
             core.transition(this);
         }
+        ResultScene.prototype.getAnswer = function (ans) {
+            return ans.answer;
+        };
+        ResultScene.prototype.getQuestionNum = function (ques) {
+            return ques.question_num;
+        };
         return ResultScene;
     }(createjs.Container));
     question_scenes.ResultScene = ResultScene;

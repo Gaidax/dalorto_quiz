@@ -25,7 +25,7 @@ namespace core {
 
     export let curr_scene: createjs.Container;
 
-    export let wrong_ones: Array<String> = new Array<String>();
+    export let wrong_ones: Array<objects.WrongAns> = new Array<objects.WrongAns>();
 
     //let menu: scenes.Menu;
 

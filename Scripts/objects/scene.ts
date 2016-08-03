@@ -13,6 +13,7 @@ module objects {
 
         private key: number;
         private right_ans: string;
+        private question_text: string;
         protected choice_1: objects.Button;
         protected choice_2: objects.Button;
         protected choice_3: objects.Button;
@@ -22,7 +23,7 @@ module objects {
         private menu_button: objects.Button = new objects.Button("menu_btn",50,50, false);
         protected background: objects.Background;
         protected vegie_sprite: objects.Vegetable;
-        protected question_text: objects.Label;
+        protected question_text_label: objects.Label;
 
         constructor(button_add1: string,
             button_add2: string, button_add3: string, button_add4: string,
@@ -37,13 +38,14 @@ module objects {
             this.btn_cont =[this.choice_1, this.choice_2, this.choice_3,
             this.choice_4];
             this.background = new objects.Background(set_background);
-            this.question_text = new objects.Label(q_text,"50px", 
+            this.question_text_label = new objects.Label(q_text,"50px", 
                                     "Pattaya", "BLUE", 1030, 290, true);
             if(sprite) {
             this.vegie_sprite = new objects.Vegetable(sprite, 520, 320);
             }
             this.key = curent;
             this.right_ans = right;
+            this.question_text = q_text;           
             this.Start();
         }
         /**
@@ -67,8 +69,8 @@ module objects {
             this.addChild(this.vegie_sprite); 
             
             }
-            this.addChild(this.question_text);
-            this.addChild(this.question_text.double);
+            this.addChild(this.question_text_label);
+            this.addChild(this.question_text_label.double);
 
 
             this.onClick();
@@ -76,8 +78,9 @@ module objects {
         }
 
         protected onClick(): void {
-            var key = this.key+1;
+            var key = this.key;
             var right_key = this.right_ans;
+            var q_text = this.question_text;
             this.menu_button.on("click", function(){
                 core.scene = "MENU";
                 core.changeScene();
@@ -94,13 +97,15 @@ module objects {
                         core.score++;
                         console.log(core.score);           
                     } else {
-                        core.wrong_ones.push(this.name);
+                        let wrong = {question_num: key.toString(), answer: this.name,
+                            question: q_text};
+                        core.wrong_ones.push(wrong);
                         console.log(core.wrong_ones[0]);
                         
                     }
-                if(key <= 2) {
+                if(key+1 <= 2) {
 
-                core.scene = config.Scene_questions[key];
+                core.scene = config.Scene_questions[key+1];
 
                 } else {
                     core.scene = "RESULTS";

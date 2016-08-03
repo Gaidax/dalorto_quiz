@@ -3,4 +3,10 @@ module objects {
         id: string;
         src: string;
     }
+
+    export interface WrongAns {
+        question_num: string;
+        answer: string;
+        question: string;
+    }
 }
