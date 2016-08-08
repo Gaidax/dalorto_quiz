@@ -15,6 +15,11 @@ canvas {
 }
 
 @font-face {
-    font-family: Arcade;
-    src: url(ARCADECLASSIC.TTF);
+    font-family: 'Intubli_q';
+    src: url('../Assets/fonts/INTRCM_0.ttf');
+}
+
+@font-face {
+    font-family: 'Intubli_t';
+    src: url('../Assets/fonts/INTBDCM_0.ttf');
 }

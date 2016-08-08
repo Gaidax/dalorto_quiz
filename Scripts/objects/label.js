@@ -21,8 +21,11 @@ var objects;
             this.fontFamily = fontFamily;
             this.fontColour = fontColour;
             if (isCentered) {
-                this.regX = this.getMeasuredWidth() * 0.5;
-                this.regY = this.getMeasuredHeight() * 0.5;
+                this.regX = (this.getMeasuredWidth() * this.scaleX) / 2;
+                this.regY = (this.getMeasuredHeight() * this.scaleY) / 2;
+                this.textAlign = 'center';
+                //this.lineWidth = 200;
+                this.lineHeight = 60;
             }
             // assign label coordinates
             this.x = x;

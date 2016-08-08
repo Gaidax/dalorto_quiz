@@ -1,0 +1,62 @@
+{
+
+"images": [
+    "veggies.png"
+],
+
+"frames": [
+    [1, 1, 524, 310, 0, -20, -53],
+    [527, 1, 530, 312, 0, -22, -74],
+    [1059, 1, 460, 321, 0, -43, -37],
+    [1521, 1, 450, 364, 0, -36, -29],
+    [1, 315, 561, 337, 0, -8, -58],
+    [564, 324, 578, 352, 0, -4, -37],
+    [1144, 324, 302, 377, 0, -138, -18],
+    [1448, 367, 582, 354, 0, 0, -31],
+    [1, 654, 549, 359, 0, -15, -18],
+    [552, 678, 563, 374, 0, -8, -21],
+    [1117, 723, 413, 375, 0, -118, -12],
+    [1532, 723, 380, 378, 0, -59, -17],
+    [1, 1015, 495, 386, 0, -56, -9],
+    [498, 1054, 572, 377, 0, 0, -18],
+    [1072, 1100, 455, 388, 0, -111, -7],
+    [1529, 1103, 492, 389, 0, -34, -5],
+    [1, 1403, 460, 394, 0, -61, -1],
+    [463, 1433, 582, 387, 0, 0, -8],
+    [1047, 1494, 519, 392, 0, -34, -3],
+    [1, 1822, 580, 395, 0, 0, 0],
+    [583, 1888, 531, 395, 0, -8, 0],
+    [1116, 1888, 519, 395, 0, -26, 0]
+],
+
+"animations": {
+    "Pepper": { "frames": [0] },
+    "Cucumber": { "frames": [1] },
+    "Apples": { "frames": [2] },
+    "Potatos": { "frames": [3] },
+    "Beets": { "frames": [4] },
+    "Courgette": { "frames": [5] },
+    "Artichoke": { "frames": [6] },
+    "Figs": { "frames": [7] },
+    "Garlic": { "frames": [8] },
+    "Peas": { "frames": [9] },
+    "Lettuce": { "frames": [10] },
+    "Eggplant": { "frames": [11] },
+    "Rucola": { "frames": [12] },
+    "Beans": { "frames": [13] },
+    "Tomatos": { "frames": [14] },
+    "Plumbs": { "frames": [15] },
+    "Pumpkin": { "frames": [16] },
+    "Parsley": { "frames": [17] },
+    "Pears": { "frames": [18] },
+    "Basil": { "frames": [19] },
+    "Chard": { "frames": [20] },
+    "Rapini": { "frames": [21] }
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:bd84649f129b60e8fde46b056f8c77d3:975e32c5781afc6ab26dbc284cf60d69:1d8850353386b267aa2e4dbd389eb540$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

@@ -16,21 +16,27 @@ var objects;
      */
     var Scene = (function (_super) {
         __extends(Scene, _super);
-        function Scene(button_add1, button_add2, button_add3, button_add4, set_background, right, curent, q_text, sprite) {
+        function Scene(button_add1, button_add2, button_add3, button_add4, right, curent, q_text, sprite) {
             _super.call(this);
-            this.reset_button = new objects.Button("reset_btn", 800, 50, false);
-            this.menu_button = new objects.Button("menu_btn", 50, 50, false);
-            this.choice_1 = new objects.Button(button_add1, 200, 550, false);
-            this.choice_2 = new objects.Button(button_add2, 400, 550, false);
-            this.choice_3 = new objects.Button(button_add3, 500, 550, false);
-            this.choice_4 = new objects.Button(button_add4, 600, 550, false);
+            this.reset_button = new objects.SpriteObject(core.buttonAtlas, "Reset", 800, 50);
+            this.menu_button = new objects.SpriteObject(core.buttonAtlas, "Menu", 50, 50);
+            this.background = new objects.Background("background");
+            var menu_btn = new createjs.ButtonHelper(this.menu_button);
+            var reset_btn = new createjs.ButtonHelper(this.reset_button);
+            menu_btn.overLabel = 4;
+            menu_btn.outLabel = 3;
+            reset_btn.overLabel = 2;
+            reset_btn.outLabel = 1;
+            this.choice_1 = new objects.Flag(button_add1, 200, 550, false);
+            this.choice_2 = new objects.Flag(button_add2, 400, 550, false);
+            this.choice_3 = new objects.Flag(button_add3, 500, 550, false);
+            this.choice_4 = new objects.Flag(button_add4, 600, 550, false);
             this.btn_cont = new Array();
             this.btn_cont = [this.choice_1, this.choice_2, this.choice_3,
                 this.choice_4];
-            this.background = new objects.Background(set_background);
-            this.question_text_label = new objects.Label(q_text, "50px", "Pattaya", "BLUE", 1030, 290, true);
+            this.question_text_label = new objects.Label(q_text, "50px", "Intubli_q", "BLACK", 1030, 290, true);
             if (sprite) {
-                this.vegie_sprite = new objects.Vegetable(sprite, 520, 320);
+                this.vegie_sprite = new objects.SpriteObject(core.veggiesAtlas, sprite, 520, 320);
             }
             this.key = curent;
             this.right_ans = right;

@@ -5,16 +5,22 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var question_scenes;
 (function (question_scenes) {
+    //200,200
     var MenuScene = (function (_super) {
         __extends(MenuScene, _super);
         function MenuScene() {
             _super.call(this);
-            this.start_btn = new objects.Button("Start_the_Quizz", 200, 200, true);
-            this.background = new objects.Background("menu_back");
+            this.start_btn = new objects.SpriteObject(core.buttonAtlas, "start", 450, 595);
+            this.title = new createjs.Bitmap(core.assets.getResult("title")); // 325,595);
+            this.background = new objects.Background("background");
             core.reset();
+            var start_b = new createjs.ButtonHelper(this.start_btn);
             this.alpha = 0;
             this.addChild(this.background);
             this.addChild(this.start_btn);
+            this.title.x = 200;
+            this.title.y = 165;
+            this.addChild(this.title);
             this.start_btn.on("click", function () {
                 //createjs.Tween.get(this).to({ alpha: 0 }, 1000);
                 core.scene = "Q_1";

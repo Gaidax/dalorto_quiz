@@ -1,0 +1,28 @@
+{
+
+"images": [
+    "buttons.png"
+],
+
+"frames": [
+    [1, 1, 218, 218, 0, -15, -13],
+    [1, 221, 198, 80, 0, 0, -12],
+    [1, 303, 198, 80, 0, 0, -12],
+    [1, 385, 197, 80, 0, -8, -11],
+    [1, 467, 197, 80, 0, -8, -11]
+],
+
+"animations": {
+    "start": { "frames": [0] },
+    "ResetOff": { "frames": [1] },
+    "ResetOn": { "frames": [2] },
+    "MenuOff": { "frames": [3] },
+    "MenuOn": { "frames": [4] }
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:2a46a4c74731f78c87612b6cb3182228:9f749a42945634890873f35d2cad5369:b34c8670b11bb20cb1751a70d3683e22$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}
