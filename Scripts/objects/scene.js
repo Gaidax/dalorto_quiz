@@ -93,7 +93,7 @@ var objects;
                             question: q_text };
                         core.wrong_ones.push(wrong);
                     }
-                    if (key + 1 <= 6) {
+                    if (key + 1 <= 24) {
                         core.scene = config.Scene_questions[key + 1];
                     }
                     else {

@@ -96,7 +96,7 @@ var question_scenes;
     var Question_12 = (function (_super) {
         __extends(Question_12, _super);
         function Question_12() {
-            _super.call(this, "Argentina", "Kenia", "India", "Mongolia", "India", 11, "In quale Paese del mondo la melanzana è considerata “re della verdura?", "Melanzana");
+            _super.call(this, "Portogallo", "Austria", "Kazakistan", "Pakistan", "Kazakistan", 12, "Da quale Paese provengono i meli simili a quelli che troviamo oggi? ", "Melo"); //apples 
         }
         return Question_12;
     }(objects.Scene));
@@ -104,7 +104,7 @@ var question_scenes;
     var Question_13 = (function (_super) {
         __extends(Question_13, _super);
         function Question_13() {
-            _super.call(this, "Portogallo", "Austria", "Kazakistan", "Pakistan", "Kazakistan", 13, "Da quale Paese provengono i meli simili a quelli che troviamo oggi? ", "Melo"); //apples 
+            _super.call(this, "Perù", "Nuova_Zelanda", "Marocco", "Belgio", "Perù", 13, "Dove sono state trovate le prime testimonianze di coltivazione di patate?", "Patata");
         }
         return Question_13;
     }(objects.Scene));
@@ -112,7 +112,7 @@ var question_scenes;
     var Question_14 = (function (_super) {
         __extends(Question_14, _super);
         function Question_14() {
-            _super.call(this, "Perù", "Nuova_Zelanda", "Marocco", "Belgio", "Perù", 14, "Dove sono state trovate le prime testimonianze di coltivazione di patate?", "Patata");
+            _super.call(this, "Nicaragua", "Colombia", "USA", "Aruba", "USA", 14, "Da dove viene il Carolina Reaper, il peperoncino più piccante del mondo?", "Peperoncino");
         }
         return Question_14;
     }(objects.Scene));
@@ -120,7 +120,8 @@ var question_scenes;
     var Question_15 = (function (_super) {
         __extends(Question_15, _super);
         function Question_15() {
-            _super.call(this, "Nicaragua", "Colombia", "USA", "Aruba", "USA", 15, "Da dove viene il Carolina Reaper, il peperoncino più piccante del mondo?", "Peperoncino");
+            _super.call(this, "USA", "Giappone", "Olanda", //Netherladns
+            "Madagascar", "Giappone", 15, "In quale Paese è stata coltivata un pera di 2,94 kg, la più pesante mai esistita?", "Pero");
         }
         return Question_15;
     }(objects.Scene));
@@ -128,8 +129,7 @@ var question_scenes;
     var Question_16 = (function (_super) {
         __extends(Question_16, _super);
         function Question_16() {
-            _super.call(this, "USA", "Giappone", "Olanda", //Netherladns
-            "Madagascar", "Giappone", 16, "In quale Paese è stata coltivata un pera di 2,94 kg, la più pesante mai esistita?", "Pero");
+            _super.call(this, "Repubblica_Ceca", "Germania", "Polonia", "Sud_Africa", "Repubblica_Ceca", 16, "Da dove veniva il famoso naturalista Gregor Mendel che effettuò esperimenti pratici sull’ibridazione dei piselli ricavandone leggi fondamentali per la genetica?", "Piselli"); //Peas
         }
         return Question_16;
     }(objects.Scene));
@@ -137,7 +137,7 @@ var question_scenes;
     var Question_17 = (function (_super) {
         __extends(Question_17, _super);
         function Question_17() {
-            _super.call(this, "Repubblica_Ceca", "Germania", "Polonia", "Sud_Africa", "Repubblica_Ceca", 17, "Da dove veniva il famoso naturalista Gregor Mendel che effettuò esperimenti pratici sull’ibridazione dei piselli ricavandone leggi fondamentali per la genetica?", "Piselli"); //Peas
+            _super.call(this, "Irlanda", "Arabia_Saudita", "Cuba", "USA", "USA", 17, "Da dove arriva la ricetta di ketchup di pomodoro che tuttora è in uso?", "Pomodori");
         }
         return Question_17;
     }(objects.Scene));
@@ -145,7 +145,8 @@ var question_scenes;
     var Question_18 = (function (_super) {
         __extends(Question_18, _super);
         function Question_18() {
-            _super.call(this, "Irlanda", "Arabia_Saudita", "Cuba", "USA", "USA", 18, "Da dove arriva la ricetta di ketchup di pomodoro che tuttora è in uso?", "Pomodori");
+            _super.call(this, "Ucraina", "Inghilterra", "Uganda", //England
+            "Spagna", "Inghilterra", 18, "In quale Paese c’era la credenza che se si coltivava prezzemolo in giardino sarebbe morto qualcuno entro la fine dello stesso anno?", "Prezzemolo"); //Parsley 
         }
         return Question_18;
     }(objects.Scene));
@@ -153,8 +154,7 @@ var question_scenes;
     var Question_19 = (function (_super) {
         __extends(Question_19, _super);
         function Question_19() {
-            _super.call(this, "Ucraina", "Inghilterra", "Uganda", //England
-            "Spagna", "Inghilterra", 19, "In quale Paese c’era la credenza che se si coltivava prezzemolo in giardino sarebbe morto qualcuno entro la fine dello stesso anno?", "Prezzemolo"); //Parsley 
+            _super.call(this, "Europa_Orientale", "Europa_Danubiana", "Europa_Settentrionale", "Europa_Mediterranea", "Europa_Mediterranea", 19, "Da quale regione europea provengono i rapini?", "Rapini");
         }
         return Question_19;
     }(objects.Scene));
@@ -162,7 +162,7 @@ var question_scenes;
     var Question_20 = (function (_super) {
         __extends(Question_20, _super);
         function Question_20() {
-            _super.call(this, "Europa_Orientale", "Europa_Danubiana", "Europa_Settentrionale", "Europa_Mediterranea", "Europa_Mediterranea", 20, "Da quale regione europea provengono i rapini?", "Rapini");
+            _super.call(this, "Svizzera", "Italia", "Danimarca", "Venezuela", "Italia", 20, "Grazie alla cucina di quale Paese la rucola si è diffusa in Nord America?", "Rucola");
         }
         return Question_20;
     }(objects.Scene));
@@ -170,7 +170,7 @@ var question_scenes;
     var Question_21 = (function (_super) {
         __extends(Question_21, _super);
         function Question_21() {
-            _super.call(this, "Svizzera", "Italia", "Danimarca", "Venezuela", "Italia", 21, "Grazie alla cucina di quale Paese la rucola si è diffusa in Nord America?", "Rucola");
+            _super.call(this, "Grecia", "Australia", "Cina", "Filippine", "Cina", 21, "Quale Paese detiene il 50% del mercato mondiale di prugne?", "Susino"); //plums 
         }
         return Question_21;
     }(objects.Scene));
@@ -178,7 +178,7 @@ var question_scenes;
     var Question_22 = (function (_super) {
         __extends(Question_22, _super);
         function Question_22() {
-            _super.call(this, "Grecia", "Australia", "Cina", "Filippine", "Cina", 22, "Quale Paese detiene il 50% del mercato mondiale di prugne?", "Susino"); //plums 
+            _super.call(this, "Ecuador", "Paraguay", "Haiti", "Messico", "Messico", 22, "In quale Paese sono stati rinvenuti semi di zucca che risalgono al 6.000-7.000 a.C.?", "Zucca"); //pumpkin
         }
         return Question_22;
     }(objects.Scene));
@@ -186,18 +186,10 @@ var question_scenes;
     var Question_23 = (function (_super) {
         __extends(Question_23, _super);
         function Question_23() {
-            _super.call(this, "Ecuador", "Paraguay", "Haiti", "Messico", "Messico", 23, "In quale Paese sono stati rinvenuti semi di zucca che risalgono al 6.000-7.000 a.C.?", "Zucca"); //pumpkin
+            _super.call(this, "Canada", "Ungheria", "USA", "Finlandia", "Canada", 23, "In quale Paese è stata coltivata una zucchina di 2,52 metri, la più lunga mai esistita? ", "Zucchina");
         }
         return Question_23;
     }(objects.Scene));
     question_scenes.Question_23 = Question_23;
-    var Question_24 = (function (_super) {
-        __extends(Question_24, _super);
-        function Question_24() {
-            _super.call(this, "Canada", "Ungheria", "USA", "Finlandia", "Canada", 24, "In quale Paese è stata coltivata una zucchina di 2,52 metri, la più lunga mai esistita? ", "Zucchina");
-        }
-        return Question_24;
-    }(objects.Scene));
-    question_scenes.Question_24 = Question_24;
 })(question_scenes || (question_scenes = {}));
 //# sourceMappingURL=questions.js.map

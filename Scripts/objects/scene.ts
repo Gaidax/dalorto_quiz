@@ -113,7 +113,7 @@ module objects {
                         //console.log(core.wrong_ones[0]);
                         
                     }
-                if(key+1 <= 6) {
+                if(key+1 <= 24) {
 
                 core.scene = config.Scene_questions[key+1];
 

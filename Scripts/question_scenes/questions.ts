@@ -119,138 +119,127 @@ module question_scenes {
         export class Question_12 extends objects.Scene {
 
         constructor() {
-            super("Argentina",
-                 "Kenia","India",
-                "Mongolia", "India", 11, 
-                "In quale Paese del mondo la melanzana è considerata “re della verdura?", 
-                "Melanzana");  
-    }
-    }
-
-        export class Question_13 extends objects.Scene {
-
-        constructor() {
             super("Portogallo", 
                  "Austria","Kazakistan",
-                "Pakistan", "Kazakistan", 13, 
+                "Pakistan", "Kazakistan", 12, 
                 "Da quale Paese provengono i meli simili a quelli che troviamo oggi? ", 
                 "Melo"); //apples 
     }
     }
 
-            export class Question_14 extends objects.Scene {
+            export class Question_13 extends objects.Scene {
 
         constructor() {
             super("Perù",
                  "Nuova_Zelanda","Marocco",
-                "Belgio", "Perù", 14, 
+                "Belgio", "Perù", 13, 
                 "Dove sono state trovate le prime testimonianze di coltivazione di patate?", 
                 "Patata");  
+    }
+    }
+        export class Question_14 extends objects.Scene {
+
+        constructor() {
+            super("Nicaragua",
+                 "Colombia","USA",
+                "Aruba", "USA", 14, 
+                "Da dove viene il Carolina Reaper, il peperoncino più piccante del mondo?", 
+                "Peperoncino");  
     }
     }
         export class Question_15 extends objects.Scene {
 
         constructor() {
-            super("Nicaragua",
-                 "Colombia","USA",
-                "Aruba", "USA", 15, 
-                "Da dove viene il Carolina Reaper, il peperoncino più piccante del mondo?", 
-                "Peperoncino");  
+            super("USA",
+                 "Giappone","Olanda",//Netherladns
+                "Madagascar", "Giappone", 15, 
+                "In quale Paese è stata coltivata un pera di 2,94 kg, la più pesante mai esistita?", 
+                "Pero");  
     }
     }
         export class Question_16 extends objects.Scene {
 
         constructor() {
-            super("USA",
-                 "Giappone","Olanda",//Netherladns
-                "Madagascar", "Giappone", 16, 
-                "In quale Paese è stata coltivata un pera di 2,94 kg, la più pesante mai esistita?", 
-                "Pero");  
+            super("Repubblica_Ceca",
+                 "Germania","Polonia",
+                "Sud_Africa", "Repubblica_Ceca", 16, 
+                "Da dove veniva il famoso naturalista Gregor Mendel che effettuò esperimenti pratici sull’ibridazione dei piselli ricavandone leggi fondamentali per la genetica?", 
+                "Piselli");  //Peas
     }
     }
         export class Question_17 extends objects.Scene {
 
         constructor() {
-            super("Repubblica_Ceca",
-                 "Germania","Polonia",
-                "Sud_Africa", "Repubblica_Ceca", 17, 
-                "Da dove veniva il famoso naturalista Gregor Mendel che effettuò esperimenti pratici sull’ibridazione dei piselli ricavandone leggi fondamentali per la genetica?", 
-                "Piselli");  //Peas
-    }
-    }
-        export class Question_18 extends objects.Scene {
-
-        constructor() {
             super("Irlanda",
                  "Arabia_Saudita","Cuba",
-                "USA", "USA", 18, 
+                "USA", "USA", 17, 
                 "Da dove arriva la ricetta di ketchup di pomodoro che tuttora è in uso?", 
                 "Pomodori");  
     }
 
     }
-        export class Question_19 extends objects.Scene {
+        export class Question_18 extends objects.Scene {
 
         constructor() {
             super("Ucraina",
                  "Inghilterra","Uganda", //England
-                "Spagna", "Inghilterra", 19, 
+                "Spagna", "Inghilterra", 18, 
                 "In quale Paese c’era la credenza che se si coltivava prezzemolo in giardino sarebbe morto qualcuno entro la fine dello stesso anno?", 
                 "Prezzemolo");  //Parsley 
     }
 
     }
         
-        export class Question_20 extends objects.Scene {
+        export class Question_19 extends objects.Scene {
 
         constructor() {
             super("Europa_Orientale",
                  "Europa_Danubiana","Europa_Settentrionale",
-                "Europa_Mediterranea", "Europa_Mediterranea", 20, 
+                "Europa_Mediterranea", "Europa_Mediterranea", 19, 
                 "Da quale regione europea provengono i rapini?", 
                 "Rapini");
     }
     }
 
-            export class Question_21 extends objects.Scene {
+            export class Question_20 extends objects.Scene {
 
         constructor() {
             super("Svizzera",
                  "Italia","Danimarca",
-                "Venezuela", "Italia", 21, 
+                "Venezuela", "Italia", 20, 
                 "Grazie alla cucina di quale Paese la rucola si è diffusa in Nord America?", 
                 "Rucola");  
     }
     }
-        export class Question_22 extends objects.Scene {
+        export class Question_21 extends objects.Scene {
 
         constructor() {
             super("Grecia",
                  "Australia","Cina",
-                "Filippine", "Cina", 22, 
+                "Filippine", "Cina", 21, 
                 "Quale Paese detiene il 50% del mercato mondiale di prugne?", 
                 "Susino"); //plums 
     }
 
     }
-        export class Question_23 extends objects.Scene {
+        export class Question_22 extends objects.Scene {
 
         constructor() {
             super("Ecuador",
                  "Paraguay","Haiti", 
-                "Messico", "Messico", 23, 
+                "Messico", "Messico", 22, 
                 "In quale Paese sono stati rinvenuti semi di zucca che risalgono al 6.000-7.000 a.C.?", 
                 "Zucca");  //pumpkin
     }
 
     }
         
-        export class Question_24 extends objects.Scene {
+        export class Question_23 extends objects.Scene {
 
         constructor() {
             super("Canada",
                  "Ungheria","USA",
-                "Finlandia", "Canada", 24, 
+                "Finlandia", "Canada", 23, 
                 "In quale Paese è stata coltivata una zucchina di 2,52 metri, la più lunga mai esistita? ", 
                 "Zucchina"); 
     }

@@ -111,66 +111,66 @@ var core;
                 [835, 849, 102, 140, 0, -14, -5]
             ],
             "animations": {
-                "Europe_Danube": { "frames": [0] },
-                "Europe_Med": { "frames": [1] },
-                "Spain": { "frames": [2] },
+                "Europa_Danubiana": { "frames": [0] },
+                "Europa_Mediterranea": { "frames": [1] },
+                "Spagna": { "frames": [2] },
                 "Argentina": { "frames": [3] },
                 "Aruba": { "frames": [4] },
-                "Belgium": { "frames": [5] },
-                "Brazil": { "frames": [6] },
+                "Belgio": { "frames": [5] },
+                "Brasile": { "frames": [6] },
                 "Canada": { "frames": [7] },
-                "Chile": { "frames": [8] },
-                "China": { "frames": [9] },
+                "Cile": { "frames": [8] },
+                "Cina": { "frames": [9] },
                 "Colombia": { "frames": [10] },
                 "Congo": { "frames": [11] },
-                "Egypt": { "frames": [12] },
-                "Ethiopia": { "frames": [13] },
-                "Europe_Eastern": { "frames": [14] },
-                "Europe_Nothern": { "frames": [15] },
-                "France": { "frames": [16] },
-                "Germany": { "frames": [17] },
-                "GreatBritain": { "frames": [18] },
+                "Egitto": { "frames": [12] },
+                "Etiopia": { "frames": [13] },
+                "Europa_Orientale": { "frames": [14] },
+                "Europa_Settentrionale": { "frames": [15] },
+                "Francia": { "frames": [16] },
+                "Germania": { "frames": [17] },
+                "Gran_Bretagna": { "frames": [18] },
                 "India": { "frames": [19] },
-                "Greece": { "frames": [20] },
+                "Grecia": { "frames": [20] },
                 "Indonesia": { "frames": [21] },
-                "Italy": { "frames": [22] },
-                "Japan": { "frames": [23] },
-                "Kazakhstan": { "frames": [24] },
-                "Libiya": { "frames": [25] },
-                "Mexico": { "frames": [26] },
+                "Italia": { "frames": [22] },
+                "Giappone": { "frames": [23] },
+                "Kazakistan": { "frames": [24] },
+                "Libia": { "frames": [25] },
+                "Messico": { "frames": [26] },
                 "Mongolia": { "frames": [27] },
-                "Morocco": { "frames": [28] },
-                "NewZealand": { "frames": [29] },
+                "Marocco": { "frames": [28] },
+                "Nuova_Zelanda": { "frames": [29] },
                 "Nicaragua": { "frames": [30] },
-                "Norway": { "frames": [31] },
+                "Norvegia": { "frames": [31] },
                 "Pakistan": { "frames": [32] },
-                "Paruguay": { "frames": [33] },
-                "Philippines": { "frames": [34] },
-                "Portugal": { "frames": [35] },
+                "Paraguay": { "frames": [33] },
+                "Filippine": { "frames": [34] },
+                "Portogallo": { "frames": [35] },
                 "Russia": { "frames": [36] },
-                "Slovakia": { "frames": [37] },
-                "Turkey": { "frames": [38] },
+                "Slovacchia": { "frames": [37] },
+                "Turchia": { "frames": [38] },
                 "USA": { "frames": [39] },
                 "Uganda": { "frames": [40] },
-                "Ukraine": { "frames": [41] },
+                "Ucraina": { "frames": [41] },
                 "Australia": { "frames": [42] },
                 "Austria": { "frames": [43] },
-                "CzechRepublic": { "frames": [44] },
-                "Denmark": { "frames": [45] },
-                "England": { "frames": [46] },
-                "Finland": { "frames": [47] },
+                "Repubblica_Ceca": { "frames": [44] },
+                "Danimarca": { "frames": [45] },
+                "Inghilterra": { "frames": [46] },
+                "Finlandia": { "frames": [47] },
                 "Haiti": { "frames": [48] },
-                "Hungary": { "frames": [49] },
+                "Ungheria": { "frames": [49] },
                 "Iran": { "frames": [50] },
-                "Ireland": { "frames": [51] },
-                "Kenya": { "frames": [52] },
-                "Netherlands": { "frames": [53] },
+                "Irlanda": { "frames": [51] },
+                "Kenia": { "frames": [52] },
+                "Olanda": { "frames": [53] },
                 "Madagascar": { "frames": [54] },
-                "Peru": { "frames": [55] },
-                "Poland": { "frames": [56] },
-                "SaudiArabia": { "frames": [57] },
-                "SouthAfrica": { "frames": [58] },
-                "Switzerland": { "frames": [59] },
+                "Perù": { "frames": [55] },
+                "Polonia": { "frames": [56] },
+                "Arabia_Saudita": { "frames": [57] },
+                "Sud_Africa": { "frames": [58] },
+                "Svizzera": { "frames": [59] },
                 "Venezuela": { "frames": [60] }
             },
         };
@@ -205,30 +205,30 @@ var core;
                 [909, 2232, 460, 321, 0, -43, -37]
             ],
             "animations": {
-                "Basil": { "frames": [0] },
-                "Parsley": { "frames": [1] },
-                "Onions": { "frames": [2] },
-                "Artichoke": { "frames": [3] },
-                "Beans": { "frames": [4] },
-                "Peas": { "frames": [5] },
-                "Chard": { "frames": [6] },
-                "Figs": { "frames": [7] },
+                "Basilico": { "frames": [0] },
+                "Prezzemolo": { "frames": [1] },
+                "Cipolle": { "frames": [2] },
+                "Carciofo": { "frames": [3] },
+                "Fagiolo": { "frames": [4] },
+                "Piselli": { "frames": [5] },
+                "Bietola": { "frames": [6] },
+                "Fico": { "frames": [7] },
                 "Rapini": { "frames": [8] },
-                "Courgette": { "frames": [9] },
-                "Pears": { "frames": [10] },
-                "Plumbs": { "frames": [11] },
-                "Garlic": { "frames": [12] },
-                "Potatos": { "frames": [13] },
+                "Zucchina": { "frames": [9] },
+                "Pero": { "frames": [10] },
+                "Susino": { "frames": [11] },
+                "Aglio": { "frames": [12] },
+                "Patata": { "frames": [13] },
                 "Rucola": { "frames": [14] },
-                "fennel": { "frames": [15] },
-                "Pumpkin": { "frames": [16] },
-                "Beets": { "frames": [17] },
-                "Tomatos": { "frames": [18] },
-                "Lettuce": { "frames": [19] },
-                "Cucumber": { "frames": [20] },
-                "Eggplant": { "frames": [21] },
-                "Pepper": { "frames": [22] },
-                "Apples": { "frames": [23] }
+                "Finocchio": { "frames": [15] },
+                "Zucca": { "frames": [16] },
+                "Barbabietola": { "frames": [17] },
+                "Pomodori": { "frames": [18] },
+                "Lattuga": { "frames": [19] },
+                "Cetriolo": { "frames": [20] },
+                "Melanzana": { "frames": [21] },
+                "Peperoncino": { "frames": [22] },
+                "Melo": { "frames": [23] }
             }
         };
         var buttonData = {
@@ -283,13 +283,11 @@ var core;
         //Launch Various Scenes
         switch (core.scene) {
             case config.Scene_questions[0]:
-                new question_scenes.MenuScene();
+                transition(new question_scenes.MenuScene());
                 break;
-            // Show the MENU Scene
             case config.Scene_questions[1]:
-                new question_scenes.Question_1();
+                transition(new question_scenes.Question_1());
                 break;
-            // Show the PLAY Scene
             case config.Scene_questions[2]:
                 transition(new question_scenes.Question_2());
                 break;
@@ -305,8 +303,59 @@ var core;
             case config.Scene_questions[6]:
                 transition(new question_scenes.Question_6());
                 break;
-            // Show the GAME OVER Scene
             case config.Scene_questions[7]:
+                transition(new question_scenes.Question_7());
+                break;
+            case config.Scene_questions[8]:
+                transition(new question_scenes.Question_8());
+                break;
+            case config.Scene_questions[9]:
+                transition(new question_scenes.Question_9());
+                break;
+            case config.Scene_questions[10]:
+                transition(new question_scenes.Question_10());
+                break;
+            case config.Scene_questions[11]:
+                transition(new question_scenes.Question_11());
+                break;
+            case config.Scene_questions[12]:
+                transition(new question_scenes.Question_12());
+                break;
+            case config.Scene_questions[13]:
+                transition(new question_scenes.Question_13());
+                break;
+            case config.Scene_questions[14]:
+                transition(new question_scenes.Question_14());
+                break;
+            case config.Scene_questions[15]:
+                transition(new question_scenes.Question_15());
+                break;
+            case config.Scene_questions[16]:
+                transition(new question_scenes.Question_16());
+                break;
+            case config.Scene_questions[17]:
+                transition(new question_scenes.Question_17());
+                break;
+            case config.Scene_questions[18]:
+                transition(new question_scenes.Question_18());
+                break;
+            case config.Scene_questions[19]:
+                transition(new question_scenes.Question_19());
+                break;
+            case config.Scene_questions[20]:
+                transition(new question_scenes.Question_20());
+                break;
+            case config.Scene_questions[21]:
+                transition(new question_scenes.Question_21());
+                break;
+            case config.Scene_questions[22]:
+                transition(new question_scenes.Question_22());
+                break;
+            case config.Scene_questions[23]:
+                transition(new question_scenes.Question_23());
+                break;
+            // Show the GAME OVER Scene
+            case config.Scene_questions[24]:
                 new question_scenes.ResultScene();
                 break;
         }
