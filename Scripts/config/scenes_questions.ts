@@ -5,6 +5,8 @@ module config {
         Q_2 = 2,
         Q_3 = 3,
         Q_4 = 4,
-        RESULTS = 5
+        Q_5 = 5,
+        Q_6 = 6,
+        RESULTS = 7
     } 
 }

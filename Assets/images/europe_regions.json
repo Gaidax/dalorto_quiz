@@ -1,0 +1,26 @@
+{
+
+"images": [
+    "europe_regions.png"
+],
+
+"frames": [
+    [1, 1, 181, 139, 0, -3, -6],
+    [1, 142, 182, 133, 0, -3, -6],
+    [184, 1, 179, 139, 0, -3, 0],
+    [185, 142, 178, 133, 0, -3, -6]
+],
+
+"animations": {
+    "Europe_Eastern": { "frames": [0] },
+    "Europe_Med": { "frames": [1] },
+    "Europe_Nothern": { "frames": [2] },
+    "Europe_Danube": { "frames": [3] }
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:59e110cc81223f4ec67db69e4d564f50:11d563b1f049430704fcbf89d11ea80d:306dd185260f4cf8d25556f106648625$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

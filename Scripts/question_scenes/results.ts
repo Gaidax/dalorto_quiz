@@ -1,14 +1,19 @@
 module question_scenes {
 
     export class ResultScene extends createjs.Container {
-        private reset_button: objects.Button = new objects.Button("reset_btn",800,50, false);
-        private menu_button: objects.Button = new objects.Button("menu_btn",50,50, false);
-        private background: objects.Background;
+        private reset_button: objects.SpriteObject = new objects.SpriteObject(core.buttonAtlas,"Reset",860,50);
+        private menu_button: objects.SpriteObject = new objects.SpriteObject(core.buttonAtlas,"Menu",50,50);
+        private background: objects.Background = new objects.Background("background");
         private results: objects.Label;
         private result_string: string;
         constructor() {
             super();
-        
+            var menu_btn = new createjs.ButtonHelper(this.menu_button);
+            var reset_btn = new createjs.ButtonHelper(this.reset_button);
+            menu_btn.overLabel = 5;
+            menu_btn.outLabel = 4;
+            reset_btn.overLabel = 3;
+            reset_btn.outLabel = 2;
             if(core.wrong_ones) {
               this.result_string = "This is your score: "+core.score+"\n";
               for(var wrong in core.wrong_ones){
@@ -18,9 +23,15 @@ module question_scenes {
                   this.result_string+= str.question+"\n\n";
               }
               this.results  = new objects.Label(this.result_string ,"20px", 
-                                    "Pattaya", "BLUE", 1330, 290, true);
+                                    "Intubli_q", "BLACK", 512, 290, true);
+            var self = this;
+            document.getElementById('canvas').addEventListener("wheel", function(event:WheelEvent) {
+            self.results.y -= event.deltaY;
+            self.results.double.y -= event.deltaY;
+            });
             }
             this.alpha = 0;
+            this.addChild(this.background);
             this.addChild(this.reset_button);
             this.addChild(this.menu_button);
             this.addChild(this.results);

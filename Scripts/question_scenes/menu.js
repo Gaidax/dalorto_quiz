@@ -10,11 +10,13 @@ var question_scenes;
         __extends(MenuScene, _super);
         function MenuScene() {
             _super.call(this);
-            this.start_btn = new objects.SpriteObject(core.buttonAtlas, "start", 450, 595);
+            this.start_btn = new objects.SpriteObject(core.buttonAtlas, "Start", 450, 595);
             this.title = new createjs.Bitmap(core.assets.getResult("title")); // 325,595);
             this.background = new objects.Background("background");
             core.reset();
             var start_b = new createjs.ButtonHelper(this.start_btn);
+            start_b.overLabel = 1;
+            start_b.outLabel = 0;
             this.alpha = 0;
             this.addChild(this.background);
             this.addChild(this.start_btn);
