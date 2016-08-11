@@ -21,7 +21,7 @@ module objects {
      */
     export class Flag extends objects.SpriteObject {
         private button_option: objects.Label;
-        private option_text: string;
+        public option_text: string;
 
         // CONSTRUCTOR +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         /**

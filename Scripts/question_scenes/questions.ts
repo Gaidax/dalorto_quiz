@@ -78,7 +78,7 @@ module question_scenes {
             super("India",
                  "Giappone","Indonesia",
                 "Iran", "India", 8, 
-                "In quale Paese una varietà di fico chiamata “ficus religiosa” è ritenuta sacra?", 
+                "In quale Paese una varietà di fico chiamata “ficus religiosa”\n è ritenuta sacra?", 
                 "Fico");  
     }
     }
@@ -133,7 +133,7 @@ module question_scenes {
             super("Perù",
                  "Nuova_Zelanda","Marocco",
                 "Belgio", "Perù", 13, 
-                "Dove sono state trovate le prime testimonianze di coltivazione di patate?", 
+                "Dove sono state trovate le prime testimonianze di coltivazione\n di patate?", 
                 "Patata");  
     }
     }
@@ -153,7 +153,7 @@ module question_scenes {
             super("USA",
                  "Giappone","Olanda",//Netherladns
                 "Madagascar", "Giappone", 15, 
-                "In quale Paese è stata coltivata un pera di 2,94 kg, la più pesante mai esistita?", 
+                "In quale Paese è stata coltivata un pera di 2,94 kg, la più\n pesante mai esistita?", 
                 "Pero");  
     }
     }
@@ -163,7 +163,7 @@ module question_scenes {
             super("Repubblica_Ceca",
                  "Germania","Polonia",
                 "Sud_Africa", "Repubblica_Ceca", 16, 
-                "Da dove veniva il famoso naturalista Gregor Mendel che effettuò esperimenti pratici sull’ibridazione dei piselli ricavandone leggi fondamentali per la genetica?", 
+                "Da dove veniva il famoso naturalista Gregor Mendel che effettuò\n esperimenti pratici sull’ibridazione dei piselli ricavandone leggi fondamentali per la genetica?", 
                 "Piselli");  //Peas
     }
     }
@@ -171,7 +171,7 @@ module question_scenes {
 
         constructor() {
             super("Irlanda",
-                 "Arabia_Saudita","Cuba",
+                 "Arabia_Saudita","Paraguay",
                 "USA", "USA", 17, 
                 "Da dove arriva la ricetta di ketchup di pomodoro che tuttora è in uso?", 
                 "Pomodori");  
@@ -184,7 +184,7 @@ module question_scenes {
             super("Ucraina",
                  "Inghilterra","Uganda", //England
                 "Spagna", "Inghilterra", 18, 
-                "In quale Paese c’era la credenza che se si coltivava prezzemolo in giardino sarebbe morto qualcuno entro la fine dello stesso anno?", 
+                "In quale Paese c’era la credenza che se si coltivava prezzemolo\n in giardino sarebbe morto qualcuno entro la fine dello stesso anno?", 
                 "Prezzemolo");  //Parsley 
     }
 
@@ -225,10 +225,10 @@ module question_scenes {
         export class Question_22 extends objects.Scene {
 
         constructor() {
-            super("Ecuador",
+            super("Perù",
                  "Paraguay","Haiti", 
                 "Messico", "Messico", 22, 
-                "In quale Paese sono stati rinvenuti semi di zucca che risalgono al 6.000-7.000 a.C.?", 
+                "In quale Paese sono stati rinvenuti semi di zucca che risalgono\n al 6.000-7.000 a.C.?", 
                 "Zucca");  //pumpkin
     }
 
@@ -240,7 +240,7 @@ module question_scenes {
             super("Canada",
                  "Ungheria","USA",
                 "Finlandia", "Canada", 23, 
-                "In quale Paese è stata coltivata una zucchina di 2,52 metri, la più lunga mai esistita? ", 
+                "In quale Paese è stata coltivata una zucchina di 2,52 metri,\n la più lunga mai esistita? ", 
                 "Zucchina"); 
     }
     }

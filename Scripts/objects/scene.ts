@@ -107,7 +107,7 @@ module objects {
                         core.score++;
                         //console.log(core.score);           
                     } else {
-                        let wrong = {question_num: key.toString(), answer: this.name,
+                        let wrong = {question_num: key.toString(), answer: this.option_text,
                             question: q_text};
                         core.wrong_ones.push(wrong);
                         //console.log(core.wrong_ones[0]);

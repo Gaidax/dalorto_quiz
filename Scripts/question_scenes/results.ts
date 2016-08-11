@@ -15,7 +15,7 @@ module question_scenes {
             reset_btn.overLabel = 3;
             reset_btn.outLabel = 2;
             if(core.wrong_ones) {
-              this.result_string = "This is your score: "+core.score+"\n";
+              this.result_string = "PUNTEGGIO: "+core.score+"\n";
               for(var wrong in core.wrong_ones){
                   var str = core.wrong_ones[wrong];
                   this.result_string+="Wrong answer: "+str.answer;
@@ -26,10 +26,23 @@ module question_scenes {
                                     "Intubli_q", "BLACK", 512, 290, true);
             var self = this;
             document.getElementById('canvas').addEventListener("wheel", function(event:WheelEvent) {
-            self.results.y -= event.deltaY;
-            self.results.double.y -= event.deltaY;
-            });
+            var change = self.results.y - event.deltaY;
+            var check = self.results.getMeasuredHeight();
+            if(change <= check+160 && change >= -check+200){
+        
+            self.results.y = change;
+            self.results.double.y = change;
             }
+            });
+
+            //this.on("pressmove", function(evt: createjs.MouseEvent) {
+            //this.results.y = evt.stageY;
+            //this.results.double.y = evt.stageY;
+            //this.results.x = evt.stageX;
+            //this.results.double.x = evt.stageX;
+            //core.stage.update();
+            //});
+
             this.alpha = 0;
             this.addChild(this.background);
             this.addChild(this.reset_button);
@@ -49,14 +62,6 @@ module question_scenes {
             });   
                 core.transition(this);
         }
-
-        private getAnswer(ans :objects.WrongAns): string {
-            return ans.answer;
         }
-
-        private getQuestionNum(ques: objects.WrongAns): string {
-            return ques.question_num;
-        }
-
     }
 }

@@ -89,7 +89,7 @@ var objects;
                         core.score++;
                     }
                     else {
-                        var wrong = { question_num: key.toString(), answer: this.name,
+                        var wrong = { question_num: key.toString(), answer: this.option_text,
                             question: q_text };
                         core.wrong_ones.push(wrong);
                     }

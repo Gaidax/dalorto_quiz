@@ -64,7 +64,7 @@ var question_scenes;
     var Question_8 = (function (_super) {
         __extends(Question_8, _super);
         function Question_8() {
-            _super.call(this, "India", "Giappone", "Indonesia", "Iran", "India", 8, "In quale Paese una varietà di fico chiamata “ficus religiosa” è ritenuta sacra?", "Fico");
+            _super.call(this, "India", "Giappone", "Indonesia", "Iran", "India", 8, "In quale Paese una varietà di fico chiamata “ficus religiosa”\n è ritenuta sacra?", "Fico");
         }
         return Question_8;
     }(objects.Scene));
@@ -104,7 +104,7 @@ var question_scenes;
     var Question_13 = (function (_super) {
         __extends(Question_13, _super);
         function Question_13() {
-            _super.call(this, "Perù", "Nuova_Zelanda", "Marocco", "Belgio", "Perù", 13, "Dove sono state trovate le prime testimonianze di coltivazione di patate?", "Patata");
+            _super.call(this, "Perù", "Nuova_Zelanda", "Marocco", "Belgio", "Perù", 13, "Dove sono state trovate le prime testimonianze di coltivazione\n di patate?", "Patata");
         }
         return Question_13;
     }(objects.Scene));
@@ -121,7 +121,7 @@ var question_scenes;
         __extends(Question_15, _super);
         function Question_15() {
             _super.call(this, "USA", "Giappone", "Olanda", //Netherladns
-            "Madagascar", "Giappone", 15, "In quale Paese è stata coltivata un pera di 2,94 kg, la più pesante mai esistita?", "Pero");
+            "Madagascar", "Giappone", 15, "In quale Paese è stata coltivata un pera di 2,94 kg, la più\n pesante mai esistita?", "Pero");
         }
         return Question_15;
     }(objects.Scene));
@@ -129,7 +129,7 @@ var question_scenes;
     var Question_16 = (function (_super) {
         __extends(Question_16, _super);
         function Question_16() {
-            _super.call(this, "Repubblica_Ceca", "Germania", "Polonia", "Sud_Africa", "Repubblica_Ceca", 16, "Da dove veniva il famoso naturalista Gregor Mendel che effettuò esperimenti pratici sull’ibridazione dei piselli ricavandone leggi fondamentali per la genetica?", "Piselli"); //Peas
+            _super.call(this, "Repubblica_Ceca", "Germania", "Polonia", "Sud_Africa", "Repubblica_Ceca", 16, "Da dove veniva il famoso naturalista Gregor Mendel che effettuò\n esperimenti pratici sull’ibridazione dei piselli ricavandone leggi fondamentali per la genetica?", "Piselli"); //Peas
         }
         return Question_16;
     }(objects.Scene));
@@ -137,7 +137,7 @@ var question_scenes;
     var Question_17 = (function (_super) {
         __extends(Question_17, _super);
         function Question_17() {
-            _super.call(this, "Irlanda", "Arabia_Saudita", "Cuba", "USA", "USA", 17, "Da dove arriva la ricetta di ketchup di pomodoro che tuttora è in uso?", "Pomodori");
+            _super.call(this, "Irlanda", "Arabia_Saudita", "Paraguay", "USA", "USA", 17, "Da dove arriva la ricetta di ketchup di pomodoro che tuttora è in uso?", "Pomodori");
         }
         return Question_17;
     }(objects.Scene));
@@ -146,7 +146,7 @@ var question_scenes;
         __extends(Question_18, _super);
         function Question_18() {
             _super.call(this, "Ucraina", "Inghilterra", "Uganda", //England
-            "Spagna", "Inghilterra", 18, "In quale Paese c’era la credenza che se si coltivava prezzemolo in giardino sarebbe morto qualcuno entro la fine dello stesso anno?", "Prezzemolo"); //Parsley 
+            "Spagna", "Inghilterra", 18, "In quale Paese c’era la credenza che se si coltivava prezzemolo\n in giardino sarebbe morto qualcuno entro la fine dello stesso anno?", "Prezzemolo"); //Parsley 
         }
         return Question_18;
     }(objects.Scene));
@@ -178,7 +178,7 @@ var question_scenes;
     var Question_22 = (function (_super) {
         __extends(Question_22, _super);
         function Question_22() {
-            _super.call(this, "Ecuador", "Paraguay", "Haiti", "Messico", "Messico", 22, "In quale Paese sono stati rinvenuti semi di zucca che risalgono al 6.000-7.000 a.C.?", "Zucca"); //pumpkin
+            _super.call(this, "Perù", "Paraguay", "Haiti", "Messico", "Messico", 22, "In quale Paese sono stati rinvenuti semi di zucca che risalgono\n al 6.000-7.000 a.C.?", "Zucca"); //pumpkin
         }
         return Question_22;
     }(objects.Scene));
@@ -186,7 +186,7 @@ var question_scenes;
     var Question_23 = (function (_super) {
         __extends(Question_23, _super);
         function Question_23() {
-            _super.call(this, "Canada", "Ungheria", "USA", "Finlandia", "Canada", 23, "In quale Paese è stata coltivata una zucchina di 2,52 metri, la più lunga mai esistita? ", "Zucchina");
+            _super.call(this, "Canada", "Ungheria", "USA", "Finlandia", "Canada", 23, "In quale Paese è stata coltivata una zucchina di 2,52 metri,\n la più lunga mai esistita? ", "Zucchina");
         }
         return Question_23;
     }(objects.Scene));
