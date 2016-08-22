@@ -174,7 +174,7 @@ module question_scenes {
                  "Arabia_Saudita","Paraguay",
                 "USA", "USA", 17, 
                 "Da dove arriva la ricetta di ketchup di pomodoro che tuttora è in uso?", 
-                "Pomodori");  
+                "Pomodoro");  
     }
 
     }
@@ -242,6 +242,17 @@ module question_scenes {
                 "Finlandia", "Canada", 23, 
                 "In quale Paese è stata coltivata una zucchina di 2,52 metri,\n la più lunga mai esistita? ", 
                 "Zucchina"); 
+    }
+    }
+
+    export class Question_24 extends objects.Scene {
+
+        constructor() {
+            super("Spagna",
+                 "Italia","Brasile",
+                "Messico", "Italia", 24, 
+                "Chi è il più grande produttore mondiale di carciofi? ", 
+                "Carciofo"); 
     }
     }
 }

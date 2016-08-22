@@ -137,7 +137,7 @@ var question_scenes;
     var Question_17 = (function (_super) {
         __extends(Question_17, _super);
         function Question_17() {
-            _super.call(this, "Irlanda", "Arabia_Saudita", "Paraguay", "USA", "USA", 17, "Da dove arriva la ricetta di ketchup di pomodoro che tuttora è in uso?", "Pomodori");
+            _super.call(this, "Irlanda", "Arabia_Saudita", "Paraguay", "USA", "USA", 17, "Da dove arriva la ricetta di ketchup di pomodoro che tuttora è in uso?", "Pomodoro");
         }
         return Question_17;
     }(objects.Scene));
@@ -191,5 +191,13 @@ var question_scenes;
         return Question_23;
     }(objects.Scene));
     question_scenes.Question_23 = Question_23;
+    var Question_24 = (function (_super) {
+        __extends(Question_24, _super);
+        function Question_24() {
+            _super.call(this, "Spagna", "Italia", "Brasile", "Messico", "Italia", 24, "Chi è il più grande produttore mondiale di carciofi? ", "Carciofo");
+        }
+        return Question_24;
+    }(objects.Scene));
+    question_scenes.Question_24 = Question_24;
 })(question_scenes || (question_scenes = {}));
 //# sourceMappingURL=questions.js.map

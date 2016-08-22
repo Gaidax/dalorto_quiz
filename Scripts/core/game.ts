@@ -253,7 +253,7 @@ namespace core {
     "Finocchio": { "frames": [15] },
     "Zucca": { "frames": [16] },
     "Barbabietola": { "frames": [17] },
-    "Pomodori": { "frames": [18] },
+    "Pomodoro": { "frames": [18] },
     "Lattuga": { "frames": [19] },
     "Cetriolo": { "frames": [20] },
     "Melanzana": { "frames": [21] },
@@ -397,8 +397,11 @@ namespace core {
             case config.Scene_questions[23]:
                 transition(new question_scenes.Question_23());
                 break;
-            // Show the GAME OVER Scene
             case config.Scene_questions[24]:
+                transition(new question_scenes.Question_24());
+                break;
+            // Show the GAME OVER Scene
+            case config.Scene_questions[25]:
                 new question_scenes.ResultScene();
                 break;
         }

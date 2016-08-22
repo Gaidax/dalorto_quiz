@@ -24,6 +24,7 @@ module config {
         Q_21 = 21,
         Q_22 = 22,
         Q_23 = 23,
-        RESULTS = 24
+        Q_24 = 24,
+        RESULTS = 25
     } 
 }
