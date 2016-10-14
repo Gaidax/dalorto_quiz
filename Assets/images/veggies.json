@@ -1,0 +1,66 @@
+{
+
+"images": [
+    "veggies.png"
+],
+
+"frames": [
+    [1, 1, 580, 395, 0, 0, 0],
+    [583, 1, 582, 387, 0, 0, -8],
+    [1167, 1, 572, 390, 0, 0, -5],
+    [1741, 1, 302, 377, 0, -138, -18],
+    [583, 390, 572, 377, 0, 0, -18],
+    [1, 398, 563, 374, 0, -8, -21],
+    [1157, 393, 531, 395, 0, -8, 0],
+    [566, 769, 582, 354, 0, 0, -31],
+    [1, 774, 519, 395, 0, -26, 0],
+    [1150, 790, 578, 352, 0, -4, -37],
+    [522, 1125, 519, 392, 0, -34, -3],
+    [1, 1171, 492, 389, 0, -34, -5],
+    [1043, 1144, 549, 359, 0, -15, -18],
+    [1594, 1144, 450, 364, 0, -36, -29],
+    [1043, 1505, 495, 386, 0, -56, -9],
+    [1540, 1510, 486, 386, 0, -57, 0],
+    [495, 1519, 460, 394, 0, -61, -1],
+    [957, 1893, 561, 337, 0, -8, -58],
+    [1520, 1898, 455, 388, 0, -111, -7],
+    [1, 1562, 413, 375, 0, -118, -12],
+    [416, 1915, 530, 312, 0, -22, -74],
+    [1, 1939, 380, 378, 0, -59, -17],
+    [383, 2229, 524, 310, 0, -20, -53],
+    [909, 2232, 460, 321, 0, -43, -37]
+],
+
+"animations": {
+    "Basil": { "frames": [0] },
+    "Parsley": { "frames": [1] },
+    "Onions": { "frames": [2] },
+    "Artichoke": { "frames": [3] },
+    "Beans": { "frames": [4] },
+    "Peas": { "frames": [5] },
+    "Chard": { "frames": [6] },
+    "Figs": { "frames": [7] },
+    "Rapini": { "frames": [8] },
+    "Courgette": { "frames": [9] },
+    "Pears": { "frames": [10] },
+    "Plumbs": { "frames": [11] },
+    "Garlic": { "frames": [12] },
+    "Potatos": { "frames": [13] },
+    "Rucola": { "frames": [14] },
+    "fennel": { "frames": [15] },
+    "Pumpkin": { "frames": [16] },
+    "Beets": { "frames": [17] },
+    "Tomatos": { "frames": [18] },
+    "Lettuce": { "frames": [19] },
+    "Cucumber": { "frames": [20] },
+    "Eggplant": { "frames": [21] },
+    "Pepper": { "frames": [22] },
+    "Apples": { "frames": [23] }
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:7eafac9589a56bc5650ac7aee3b8b34f:2a7caba8ab5de387fd0838a220dfb313:1d8850353386b267aa2e4dbd389eb540$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

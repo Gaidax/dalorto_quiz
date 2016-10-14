@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+}
+
+canvas {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    background-color: white;
+}
+
+@font-face {
+    font-family: 'Intubli_q';
+    src: url('../Assets/fonts/INTRCM_0.ttf');
+}
+
+@font-face {
+    font-family: 'Intubli_t';
+    src: url('../Assets/fonts/INTBDCM_0.ttf');
+}
